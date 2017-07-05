@@ -7,14 +7,13 @@
     'author': "Camptocamp,Odoo Community Association (OCA)",
     'license': 'AGPL-3',
     'category': 'Generic Modules/Base',
-    'version': '9.0.1.0.0',
+    'version': '10.0.1.0.0',
     'depends': [
         'base',
         'mail'
     ],
     'data': [
-        'security/ir.model.access.csv',
         'views/base_partner_merge.xml',
     ],
-    'installable': False,
+    'installable': True,
 }
